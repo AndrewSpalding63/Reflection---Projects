@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .telephone-image-topbar{
+        display: none;
+    }
+
+    
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .card-section > div{
+        width: 30.4%;
+    }
+    .netmatters-background-image{
+        width: 50%;
+    }
+    .netmatters-background-image .content{
+        font-weight: normal;
+        word-spacing: 4px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .logo-img{
+        width: 250px!important;
+    }
+    .logo-container {
+        padding: 0 1rem!important;
+    }
+    .top-bar-div {
+        right: 1rem!important;
+    }
+    .clients-2{
+        display: none;
+    }
+    .client-one-hover{
+        display: none;
+    }
+    
+    
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    .top-nav{
+        display: none;
+    }
+    .logo-img{
+        width: 250px!important;
+    }
+
+    .btn-support{
+        display: none!important;
+    }
+    .btn-contact{
+        display: none!important;
+    }
+    
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    
+ }
+
+
+ /* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .card-section > div{
+        width: 30.4%;
+    }
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .card-section > div{
+        width: 46%!important;
+    }
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.cover-image{
+    background-image: url("./img/cover\ image.jpg");
+    height: 100%;
+}
+
+.top-bar-div{
+    position: absolute;
+    right: 5rem;
+    top: 10px;
+}
+
+.section-half {
+    display: inline-block
+}
+
+.logo-container{
+    padding: 0 5rem;
+}
+
+.menu-icon-div{
+    display: inline-block;
+    background-color: #333645;
+    width: 60px;
+    border-radius: 4px;
+    height: 57px;
+    position: relative;
+    top: 13px;
+}
+.menu-icon-div:hover{
+    background-color: black;
+}
+
+.menu-icon-div .img{
+    height: 30px;
+    width: 38px;
+    margin-left: 11px;
+    position: relative;
+    top: 5px;
+
+}
+.menu-icon-div .text{
+    color: white;
+    position: relative;
+    left: -10px;
+
+}
+
+.dash{
+    color: white;
+    border: 0;
+}
+
+
+.border-section-added{
+    border: 1px solid rgb(148, 148, 148)!important;
+    border-radius: 4px;
+}
+
+
+.netmatters-background-image{
+    padding-bottom: 2rem;
+}
+
+.w-100{
+    width: 100%!important;
+}
+
+.telephone-image-topbar-img:hover{
+    border-bottom: 3px solid black;    
+    
+}
+
+.btn-element{
+    font-weight: normal!important;
+    font-size: 18px!important;
+    padding: 15px!important;
+}
+.btn-element-four{
+    padding: 15px 7px!important;
+}
